@@ -2,7 +2,7 @@ import './styles/Home.css'
 import { UIProvider } from "@yamada-ui/react"
 import { ArrowRight } from 'lucide-react';
 
-function App() {
+function Home() {
 
   return (
     <>
@@ -41,7 +41,7 @@ function App() {
           <p>Belongs to N Middle School, App Koshien finalist, EXAKIDS award winner</p>
         </div>
 
-        <a href="/about" className='link'>My Projects <ArrowRight /> </a>
+        <a href="/projects" className='link'>My Projects <ArrowRight /> </a>
 
         {/* Pinned */}
         <a href='https://apps.apple.com/jp/app/%E3%83%90%E3%83%86%E3%82%B7%E3%82%A7%E3%82%A2/id6642667820?itscg=30200&itsct=apps_box_link&mttnsubad=6642667820'>
@@ -95,4 +95,4 @@ function App() {
   )
 }
 
-export default App
+export default Home
