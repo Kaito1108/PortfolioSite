@@ -1,5 +1,4 @@
 import './styles/Home.css'
-import { UIProvider } from "@yamada-ui/react"
 import { ArrowRight } from 'lucide-react';
 
 function Home() {

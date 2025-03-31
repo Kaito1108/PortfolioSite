@@ -1,5 +1,4 @@
 import './styles/About.css'
-import { UIProvider } from "@yamada-ui/react"
 
 function About() {
 
