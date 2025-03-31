@@ -1,0 +1,90 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.header {
+  text-align: left;
+}
+
+.title-name {
+  font-size: 50px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.link {
+  color: #8e8e8e;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.socialmedia {
+  display: flex;
+  margin-top: 50px;
+}
+
+.experience-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-top: 80px;
+}
+
+.experience {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.card-container {
+  background-color: #1a1a1a;
+  border-radius: 12px;
+  padding-left: 24px;
+  padding-bottom: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  border: 1px solid #333;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card-container:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.swift-circle {
+  width: 20px;
+  height: 20px;
+  background: rgb(255, 119, 0);
+  border-radius: 50px;
+}
+
+.typescript-circle {
+  width: 20px;
+  height: 20px;
+  background: rgb(0, 81, 255);
+  border-radius: 50px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
